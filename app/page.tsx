@@ -183,7 +183,7 @@ export default function ChatInterface() {
     <div className="flex items-center justify-center min-h-screen bg-gray-50 p-4">
       <Card className="w-full max-w-3xl h-[80vh] flex flex-col">
         <CardHeader className="border-b">
-          <CardTitle className="text-xl">Chat Interface</CardTitle>
+          <CardTitle className="text-xl">Ocut Chatbot</CardTitle>
         </CardHeader>
 
         <CardContent className="flex-grow p-0 overflow-hidden">
