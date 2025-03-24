@@ -98,10 +98,10 @@ export default function ChatInterface() {
         formData.append("files", fileAttachment.file);
       });
 
-      console.log("env", process.env.CHAT_API);
+      console.log("env", process.env.NEXT_PUBLIC_CHAT_API);
 
       const chatUrl =
-        process.env.CHAT_API ||
+        process.env.NEXT_PUBLIC_CHAT_API ||
         "https://n8n-c6s0.onrender.com/webhook-test/flowmate-chat";
 
       // Send message and files to the endpoint
