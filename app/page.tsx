@@ -110,8 +110,6 @@ export default function ChatInterface() {
         body: formData,
       });
 
-      console.log("RESPONSE1", response);
-
       if (!response.ok) {
         throw new Error("Failed to send message");
       }
